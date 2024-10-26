@@ -1,1 +1,253 @@
+/* General */
+body {
+  margin: 0px;
+  background-color: #24333A;
+  font-family: sans-serif; /* Added a default font */
+}
 
+.whole_container {
+  padding: 10px;
+  width: 100%; /* Changed to 100% */
+  margin: 0px auto;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+arrow {
+  border: 1px solid #87F1F7;
+  border-width: 0 1.5px 1.5px 0;
+  display: inline-block;
+  padding: 6px;
+  margin-left: -9px;
+}
+
+arrow2 {
+  border: 1px solid lightgray;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+  margin-left: -9px;
+}
+
+arrow3 {
+  border: 1px solid #87F1F7;
+  border-width: 0 1.5px 1.5px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: -18px;
+}
+
+/* Header */
+.header {
+  background-color: #24333A;
+  font-size: 7px;
+  padding: 10px; /* Added padding */
+}
+
+.header_right {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+.header_left ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: white;
+}
+
+.header_left li {
+  float: left;
+  border: 1px solid #2F4A5B;
+  border-radius: 0% 0% 50% 0%;
+  margin: 3px;
+  margin-top: 6px;
+}
+
+.header_left li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 3px 10px;
+  text-decoration: none;
+}
+
+.header_left ul li:first-child {
+  font-size: 12px;
+  border: 1px solid #2F4A5B;
+  border-right: 6px solid #2F4A5B;
+  border-radius: 0% 0% 50% 0%;
+  margin-top: 4px;
+  letter-spacing: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.active {
+  color: #87F1F7 !important;
+  text-shadow: 0 0 10px #87F1F7,
+    0 0 20px #87F1F7,
+    0 0 40px #87F1F7,
+    0 0 80px #87F1F7;
+  filter: saturate(1000%);
+}
+
+i {
+  color: white;
+  padding: 2px;
+  font-size: 5px;
+}
+
+.bullet {
+  color: white;
+  float: right;
+  margin-right: -10px;
+  margin-top: -6px;
+}
+
+/* Hamburger Menu */
+.hamburger-menu {
+  display: none; /* Hide by default */
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* main_content_1 */
+.main_content_1 {
+  background-color: #21323A;
+  padding: 10px;
+}
+
+.columns_4 {
+  color: white;
+}
+
+.columns_4 div {
+  width: 100%; /* Changed to 100% */
+  margin-bottom: 10px; /* Added spacing */
+}
+
+.seperator_holder {
+  width: 100%; /* Changed to 100% */
+  text-align: center;
+  padding: 10px 0; /* Added padding */
+}
+
+/* Column 4 */
+.column_4 {
+  border: 1px solid darkgray;
+  border-radius: 0% 0% 10% 0%;
+}
+
+.main_content_1 .column_4 ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0px;
+  overflow: hidden;
+  color: white;
+  padding:
+}
+
+.main_content_1 .column_4 ul li {
+  letter-spacing: 1px;
+  border: 1px solid #2F4A5B;
+  border-radius: 0% 0% 0% 0%;
+  width: 100%; /* Changed to 100% */
+  font-size: 8px;
+  padding: 3.4px;
+}
+
+.main_content_1 .column_4 ul li a {
+  font-size: 10px;
+}
+
+.active2 {
+  background-color: #87F1F7 !important;
+  color: black;
+  font-weight: bold;
+  text-shadow: 0 0 10px #87F1F7,
+    0 0 20px #87F1F7,
+    0 0 40px #87F1F7,
+    0 0 80px #87F1F7;
+  filter: saturate(100%);
+}
+
+.column_title {
+  border: 1px solid gray;
+  width: 100%; /* Changed to 100% */
+  color: #3E768B !important;
+  text-shadow: 0 0 10px #87F1F7;
+  filter: saturate(1000%);
+  font-size: 10px;
+  padding: 3px;
+  background-color: #87F1F710;
+  margin-bottom: 5px; /* Added spacing */
+}
+
+.bullet_2 {
+  color: #87F1F7;
+}
+
+.arrow_down {
+  color: gray;
+  font-size: 12px;
+  border: 1px solid darkgray;
+  padding: 2px;
+  float: right;
+  position: relative;
+  top: -25px;
+  right: 12px;
+}
+
+/* Column 3 */
+.column_3 {
+  border: 1px solid darkgray;
+  border-radius: 0% 0% 10% 0%;
+}
+
+.column_3_box {
+  padding-left: 60px;
+  text-align: center;
+  position: relative;
+  top: 5px;
+  font-size: 10px;
+}
+
+/* Column 2 */
+.column_2 {
+  border: 1px solid darkgray;
+  border-radius: 0% 0% 10% 0%;
+}
+
+.main_content_1 .column_2 ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0px;
+  overflow: hidden;
+  color: white;
+  margin-left: 0px;
+}
+
+.main_content_1 .column_2 ul li {
+  letter-spacing: 1px;
+  border-radius: 0% 0% 0% 0%;
+  width: 100%; /* Changed to 100% */
+  font-size: 8px;
+  padding: 3.4px;
+}
+
+.main_content_1 .column_2 ul li a {
+  font-size: 7px;
+}
+
+.white_box {
+  background-color: mintcream;
+  color: black;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 1px;
+  padding-
